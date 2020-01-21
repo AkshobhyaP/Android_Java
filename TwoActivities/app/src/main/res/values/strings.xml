@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Two Activities</string>
+    <string name="activity_second_name">Second Activity</string>
+    <string name="second_header">Message Recieved</string>
+</resources>

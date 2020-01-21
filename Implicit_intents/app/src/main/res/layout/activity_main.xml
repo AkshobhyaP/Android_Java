@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.akshobhya.implicit_intents.MainActivity">
+
+    <EditText
+        android:id="@+id/website_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/edittext_uri"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/open_website_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="@string/button_uri"
+        android:onClick="openWebsite"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <EditText
+        android:id="@+id/location_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="@string/edittext_loc"/>
+
+    <Button
+        android:id="@+id/open_location_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="@string/button_loc"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:padding="10dp"
+        android:onClick="openLocation"/>
+
+    <EditText
+        android:id="@+id/share_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter text to share"
+        android:textAlignment="center"
+        android:text="@string/edittext_share"/>
+
+    <Button
+        android:id="@+id/share_text_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="@string/button_share"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:padding="10dp"
+        android:onClick="shareText"/>
+
+</LinearLayout>
